@@ -103,9 +103,13 @@
     <Compile Include="Assets\ML-Agents\Scripts\CoreBrainPlayer.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\Decision.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\ExternalCommunicator.cs" />
+    <Compile Include="Assets\ML-Agents\Scripts\GameObjectSearcher.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\Gravity.cs" />
+    <Compile Include="Assets\ML-Agents\Scripts\Helper.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\ShipAcademy.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\ShipAgent.cs" />
+    <Compile Include="Assets\ML-Agents\Scripts\ThrustController.cs" />
+    <Compile Include="Assets\ML-Agents\Scripts\Thruster.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\UnityAgentsException.cs" />
     <Compile Include="Assets\ML-Agents\Template\Scripts\TemplateAcademy.cs" />
     <Compile Include="Assets\ML-Agents\Template\Scripts\TemplateAgent.cs" />

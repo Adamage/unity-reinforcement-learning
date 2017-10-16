@@ -16,7 +16,13 @@ public class Gravity : MonoBehaviour
     void Update()
     {
         Vector3 direction = attractedTo.transform.position - transform.position;
-        rigidBody.AddForce(strengthOfAttraction * direction);
+        var versor = direction.normalized;
+        float length = direction.magnitude;
+        var attractor = attractedTo.GetComponent<Rigidbody>();
+        var M = attractor.mass;
+        var m = rigidBody.mass;
+        var constants = strengthOfAttraction * M * m / Mathf.Pow(length, 2);
+        rigidBody.AddForce(versor * constants);
     }
 
 
